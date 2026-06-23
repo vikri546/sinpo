@@ -18,48 +18,41 @@ const API_CONFIG = {
 };
 
 let isHidden = false;
-let scrollTicking = false;
-let lastScrollY = 0;
+let scrollLocked = false;
 
 window.addEventListener(
     'scroll',
     function(){
 
-        if(scrollTicking) return;
-        scrollTicking = true;
+        if(scrollLocked) return;
 
-        requestAnimationFrame(function(){
-            scrollTicking = false;
+        const headerTop =
+            document.querySelector('.header-top');
 
-            const headerTop =
-                document.querySelector('.header-top');
+        if(!headerTop) return;
 
-            if(!headerTop) return;
+        const scrollY = window.scrollY;
 
-            const currentScrollY = window.scrollY;
-            const delta = currentScrollY - lastScrollY;
+        // Hide: scroll bukan di paling atas
+        if(scrollY > 0 && !isHidden){
 
-            // Minimum Scroll
-            if(Math.abs(delta) < 5){
-                return;
-            }
+            headerTop.classList.add('hide');
+            isHidden = true;
 
-            // Scrolling DOWN past 100px → hide
-            if(delta > 0 && currentScrollY > 100 && !isHidden){
+            // Lock untuk mencegah feedback loop
+            scrollLocked = true;
+            setTimeout(function(){ scrollLocked = false; }, 300);
 
-                headerTop.classList.add('hide');
-                isHidden = true;
+        // Show: hanya di posisi paling atas
+        }else if(scrollY === 0 && isHidden){
 
-            // Scrolling UP or near top → show
-            }else if((delta < 0 || currentScrollY < 50) && isHidden){
+            headerTop.classList.remove('hide');
+            isHidden = false;
 
-                headerTop.classList.remove('hide');
-                isHidden = false;
+            scrollLocked = true;
+            setTimeout(function(){ scrollLocked = false; }, 300);
 
-            }
-
-            lastScrollY = currentScrollY;
-        });
+        }
 
     },
     { passive:true }

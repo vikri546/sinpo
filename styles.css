@@ -136,23 +136,8 @@
 }
 
 
-.header-top{
-    overflow:hidden;
-    opacity:1;
-    padding:1rem 0;
-    transform: translateY(0);
-    transition:
-        transform .3s ease,
-        opacity .3s ease,
-        margin-top .3s ease;
-    will-change: transform, opacity;
-}
-
 .header-top.hide{
-    transform: translateY(-100%);
-    opacity:0;
-    margin-top: -80px; /* collapse space to prevent layout jump */
-    pointer-events: none;
+    display: none;
 }
 
 .sinpo-tv-section {
@@ -1004,6 +989,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
+  overflow-anchor: none;
 }
 
 body.dark-mode header {
