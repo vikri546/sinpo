@@ -39,7 +39,7 @@ window.addEventListener(
             const currentScrollY = window.scrollY;
             const delta = currentScrollY - lastScrollY;
 
-            // Minimum scroll delta to ignore micro-jitter
+            // Minimum Scroll
             if(Math.abs(delta) < 5){
                 return;
             }
