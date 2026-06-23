@@ -17,46 +17,25 @@ const API_CONFIG = {
     }
 };
 
-let isHidden = false;
-let scrollLocked = false;
+function updateHeaderOffset() {
+    const header = document.getElementById('header');
+    const headerTop = document.querySelector('.header-top');
+    if (header && headerTop) {
+        const offset = -headerTop.offsetHeight;
+        header.style.setProperty('--header-top-offset', `${offset}px`);
+    }
+}
 
-window.addEventListener(
-    'scroll',
-    function(){
+// Fix Header
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', updateHeaderOffset);
+} else {
+    updateHeaderOffset();
+}
+window.addEventListener('load', updateHeaderOffset);
+window.addEventListener('resize', updateHeaderOffset);
 
-        if(scrollLocked) return;
-
-        const header = document.getElementById('header');
-        const headerTop = document.querySelector('.header-top');
-
-        if(!header || !headerTop) return;
-
-        const scrollY = window.scrollY;
-
-        // Scroll Down
-        if(scrollY > 0 && !isHidden){
-
-            const h = headerTop.offsetHeight;
-            header.style.transform = 'translateY(-' + h + 'px)';
-            isHidden = true;
-
-            scrollLocked = true;
-            setTimeout(function(){ scrollLocked = false; }, 350);
-
-        // Scroll Up
-        }else if(scrollY === 0 && isHidden){
-
-            header.style.transform = '';
-            isHidden = false;
-
-            scrollLocked = true;
-            setTimeout(function(){ scrollLocked = false; }, 350);
-
-        }
-
-    },
-    { passive:true }
-);
+window.updateHeaderOffset = updateHeaderOffset;
 
 
 let galleryPosition = 0;
