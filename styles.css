@@ -2673,6 +2673,11 @@ body.dark-mode #fullscreen-search-input {
     color: var(--color-white);
   }
 
+  /* --- Header Sticky (Mobile) --- */
+  header {
+    top: calc(var(--header-top-offset, 0px) + env(safe-area-inset-top, 0px));
+  }
+
   /* --- 7. HEADER BOTTOM (Date, User, Bottom Menu) --- */
   .date-display {
     display: none !important;
@@ -2685,7 +2690,7 @@ body.dark-mode #fullscreen-search-input {
   .header-bottom {
     display: flex;
     justify-content: center;
-    padding-bottom: 10px;
+    padding: 10px 0;
   }
 
   .nav-main-new {
