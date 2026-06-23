@@ -19,6 +19,7 @@ const API_CONFIG = {
 
 let isHidden = false;
 let scrollTicking = false;
+let lastScrollY = 0;
 
 window.addEventListener(
     'scroll',
@@ -35,20 +36,29 @@ window.addEventListener(
 
             if(!headerTop) return;
 
-            const scrollY = window.scrollY;
+            const currentScrollY = window.scrollY;
+            const delta = currentScrollY - lastScrollY;
 
-            // Fix Header Top
-            if(!isHidden && scrollY > 80){
+            // Minimum scroll delta to ignore micro-jitter
+            if(Math.abs(delta) < 5){
+                return;
+            }
+
+            // Scrolling DOWN past 100px → hide
+            if(delta > 0 && currentScrollY > 100 && !isHidden){
 
                 headerTop.classList.add('hide');
                 isHidden = true;
 
-            }else if(isHidden && scrollY < 20){
+            // Scrolling UP or near top → show
+            }else if((delta < 0 || currentScrollY < 50) && isHidden){
 
                 headerTop.classList.remove('hide');
                 isHidden = false;
 
             }
+
+            lastScrollY = currentScrollY;
         });
 
     },

@@ -138,18 +138,21 @@
 
    .header-top{
     overflow:hidden;
-    max-height:100px; /* sesuaikan */
     opacity:1;
     padding:1rem 0;
+    transform: translateY(0);
     transition:
-        max-height .25s ease,
-        opacity .25s ease;
+        transform .3s ease,
+        opacity .3s ease,
+        margin-top .3s ease;
+    will-change: transform, opacity;
 }
 
 .header-top.hide{
-    max-height:0;
+    transform: translateY(-100%);
     opacity:0;
-    padding: 0px;
+    margin-top: -80px; /* collapse space to prevent layout jump */
+    pointer-events: none;
 }
 
 .sinpo-tv-section {
