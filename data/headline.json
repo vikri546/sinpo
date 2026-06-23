@@ -1,0 +1,50 @@
+{
+    "success": true,
+    "meta": {
+        "page": 1,
+        "limit": 1,
+        "total": 16615,
+        "total_pages": 16615
+    },
+    "data": [
+        {
+            "id_berita": 117867,
+            "id_channel": 2,
+            "id_categories": null,
+            "judul": "Kemnaker Buka Lagi Pembinaan K3 Gratis untuk 2.100 Peserta",
+            "judul_atas": null,
+            "sub_judul": null,
+            "penulis": "Tri Setyo Nugroho",
+            "oleh": null,
+            "wartawan": "Tio Pirnando",
+            "id_wartawan": 76,
+            "tanggal_tayang": "2026-04-05",
+            "waktu": "18:13:00",
+            "headline": "1",
+            "publish": "1",
+            "tag": "Menaker, Yassierli, Program K3",
+            "gambar_detail": "2026\/04\/kemnaker-buka-lagi-pembinaan-k3-gratis-untuk-2100-peserta-05042026-174051.jpg",
+            "fokus": 1,
+            "caption": "Menteri Ketenagakerjaan RI Yassierli (SinPo.id\/ Dok. Kemnaker)",
+            "counter": 52,
+            "datakategori": null,
+            "datachannel": {
+                "id": 2,
+                "nama": "POLITIK",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "1",
+                "urut": null
+            },
+            "datawartawan": {
+                "id_wartawan": 76,
+                "nama_wartawan": "Tio Pirnando",
+                "email": "",
+                "foto": "",
+                "fb": null,
+                "quotes": null,
+                "status": 1
+            }
+        }
+    ]
+}

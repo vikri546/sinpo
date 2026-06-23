@@ -1,0 +1,52 @@
+{
+    "success": true,
+    "data": {
+        "id_berita": 117638,
+        "id_channel": 6,
+        "id_categories": null,
+        "penulis": "Khaerul\u00a0Anam",
+        "oleh": null,
+        "wartawan": "Tim Redaksi",
+        "id_wartawan": 38,
+        "tanggal_tayang": "2026-04-01T00:00:00.000000Z",
+        "waktu": "17:23:00",
+        "isi": "<p><strong>SinPo.id - <\/strong>Presiden Republik Indonesia Prabowo Subianto menerima penghargaan kehormatan tertinggi dari Pemerintah Republik Korea, <em>The Grand Order of Mugunghwa<\/em>, yang dianugerahkan langsung oleh Presiden Republik Korea Lee Jae Myung, dalam sebuah <em>Friendship Event<\/em> yang berlangsung di Garden of Sangchungjae, Istana Kepresidenan Republik Korea, pada Rabu, 1 April 2026. Penganugerahan tersebut menjadi bagian dari rangkaian kunjungan kenegaraan Presiden Prabowo ke Republik Korea.<\/p>\r\n\r\n<p><em>The Grand Order of Mugunghwa <\/em>merupakan penghargaan nasional tertinggi Republik Korea yang secara khusus dianugerahkan kepada Presiden Republik Korea beserta pasangan, serta para Kepala Negara atau mantan Kepala Negara dari negara sahabat beserta pasangan. Penghargaan ini diberikan atas jasa yang luar biasa dalam mendukung pembangunan dan keamanan Republik Korea.<\/p>\r\n\r\n<p>Dalam kesempatan tersebut, Pemerintah Republik Korea menganugerahkan penghargaan kepada Presiden Prabowo sebagai bentuk apresiasi atas kontribusi dan peran dalam memperkuat hubungan bilateral Indonesia dan Republik Korea, termasuk dalam meningkatkan status kemitraan kedua negara menjadi Special Comprehensive Strategic Partnership.<\/p>\r\n\r\n<p>Penghargaan yang diterima Presiden Prabowo terdiri atas sejumlah atribut kehormatan, yakni badge berupa pita, collar (kalung), star (bros), serta lapel badge (pin), yang seluruhnya dibuat dari logam mulia dan dihiasi batu permata.<\/p>\r\n\r\n<p>Sejak pertama kali dianugerahkan pada tahun 1949, The Grand Order of Mugunghwa telah diberikan kepada lebih dari 100 tokoh dunia, baik dari dalam maupun luar negeri.<\/p>\r\n\r\n<p>Sejumlah tokoh besar yang pernah menerima penghargaan ini antara lain Presiden pertama Republik Korea Syngman Rhee (1949), Raja Jordan Hussein of Jordan (1983), Ratu Inggris Elizabeth II (1986), Emir Qatar Hamad bin Khalifa Al Thani (2007), Presiden Prancis Emmanuel Macron (2018), dan Raja Belanda Willem-Alexander (2003).<\/p>\r\n\r\n<p>Penganugerahan ini semakin menegaskan eratnya hubungan persahabatan dan kerja sama strategis antara Indonesia dan Republik Korea yang terus berkembang dan memberikan manfaat nyata bagi kedua negara serta kawasan.<\/p>",
+        "judul": "Presiden Prabowo Terima Penghargaan Tertinggi Republik Korea, The Grand Order of Mugunghwa",
+        "judul_atas": null,
+        "sub_judul": null,
+        "headline": "1",
+        "publish": "1",
+        "tag": "Presiden Prabowo, Penghargaan, Republik Korea, Presiden Lee Jae Myung",
+        "gambar_detail": "2026\/04\/presiden-prabowo-terima-penghargaan-tertinggi-republik-korea-the-grand-order-of-mugunghwa-01042026-163346.jpg",
+        "fokus": 1,
+        "caption": "Presiden Prabowo Terima Penghargaan Tertinggi Republik Korea, The Grand Order of Mugunghwa (SinPo.id\/Biro Setpres)",
+        "baca_juga": null,
+        "counter": 24,
+        "video": null,
+        "kode_embed": null,
+        "audio": null,
+        "audioraw": null,
+        "audiotime": null,
+        "audiojson": null,
+        "audiorequesttime": null,
+        "datakategori": null,
+        "datachannel": {
+            "id": 6,
+            "nama": "PERISTIWA",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        "datawartawan": {
+            "id_wartawan": 38,
+            "nama_wartawan": "Tim Redaksi",
+            "email": "",
+            "foto": "gambar\/foto\/wartawan\/tim-redaksi-28062022-103329.png",
+            "fb": null,
+            "quotes": null,
+            "status": 1
+        },
+        "datagallery": []
+    }
+}

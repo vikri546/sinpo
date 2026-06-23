@@ -1,0 +1,50 @@
+{
+    "success": true,
+    "meta": {
+        "page": 1,
+        "limit": 1,
+        "total": 16609,
+        "total_pages": 16609
+    },
+    "data": [
+        {
+            "id_berita": 117638,
+            "id_channel": 6,
+            "id_categories": null,
+            "judul": "Presiden Prabowo Terima Penghargaan Tertinggi Republik Korea, The Grand Order of Mugunghwa",
+            "judul_atas": null,
+            "sub_judul": null,
+            "penulis": "Khaerul\u00a0Anam",
+            "oleh": null,
+            "wartawan": "Tim Redaksi",
+            "id_wartawan": 38,
+            "tanggal_tayang": "2026-04-01T00:00:00.000000Z",
+            "waktu": "17:23:00",
+            "headline": "1",
+            "publish": "1",
+            "tag": "Presiden Prabowo, Penghargaan, Republik Korea, Presiden Lee Jae Myung",
+            "gambar_detail": "2026\/04\/presiden-prabowo-terima-penghargaan-tertinggi-republik-korea-the-grand-order-of-mugunghwa-01042026-163346.jpg",
+            "fokus": 1,
+            "caption": "Presiden Prabowo Terima Penghargaan Tertinggi Republik Korea, The Grand Order of Mugunghwa (SinPo.id\/Biro Setpres)",
+            "counter": 24,
+            "datakategori": null,
+            "datachannel": {
+                "id": 6,
+                "nama": "PERISTIWA",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "1",
+                "urut": null
+            },
+            "datawartawan": {
+                "id_wartawan": 38,
+                "nama_wartawan": "Tim Redaksi",
+                "email": "",
+                "foto": "gambar\/foto\/wartawan\/tim-redaksi-28062022-103329.png",
+                "fb": null,
+                "quotes": null,
+                "status": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,211 @@
+{
+    "success": true,
+    "meta": {
+        "page": 1,
+        "limit": 100,
+        "total": 25,
+        "total_pages": 1
+    },
+    "data": [
+        {
+            "id": 10,
+            "nama": "tentang kami",
+            "tipe": "1",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 14,
+            "nama": "Syarat dan Ketentuan",
+            "tipe": "1",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 24,
+            "nama": "SIN PO DULU",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 11,
+            "nama": "redaksi",
+            "tipe": "1",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 2,
+            "nama": "POLITIK",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 27,
+            "nama": "POJOK SINPO",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "0",
+            "urut": null
+        },
+        {
+            "id": 6,
+            "nama": "PERISTIWA",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 23,
+            "nama": "PENDIDIKAN",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 13,
+            "nama": "PEDOMAN PEMBERITAAN MEDIA SIBER",
+            "tipe": "1",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 1,
+            "nama": "PARLEMEN",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "0",
+            "urut": null
+        },
+        {
+            "id": 4,
+            "nama": "OPINI",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 25,
+            "nama": "OLAHRAGA",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 20,
+            "nama": "NUSANTARA",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "0",
+            "urut": null
+        },
+        {
+            "id": 9,
+            "nama": "kontak",
+            "tipe": "1",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 26,
+            "nama": "KESEHATAN",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "0",
+            "urut": null
+        },
+        {
+            "id": 19,
+            "nama": "KEAMANAN",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "0",
+            "urut": null
+        },
+        {
+            "id": 3,
+            "nama": "HUKUM",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 17,
+            "nama": "GAYA HIDUP",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 15,
+            "nama": "GALERI",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 5,
+            "nama": "EKBIS",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 18,
+            "nama": "DUNIA",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 12,
+            "nama": "disclaimer",
+            "tipe": "1",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 22,
+            "nama": "BUDAYA",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 21,
+            "nama": "BONGKAR",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        {
+            "id": 8,
+            "nama": "Advertorial",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        }
+    ]
+}

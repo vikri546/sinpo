@@ -1,0 +1,52 @@
+{
+    "success": true,
+    "data": {
+        "id_berita": 117867,
+        "id_channel": 2,
+        "id_categories": null,
+        "penulis": "Tri Setyo Nugroho",
+        "oleh": null,
+        "wartawan": "Tio Pirnando",
+        "id_wartawan": 76,
+        "tanggal_tayang": "2026-04-05",
+        "waktu": "18:13:00",
+        "isi": "<p><strong>SinPo.id - <\/strong>Kementerian Ketenagakerjaan (Kemnaker) kembali membuka program Pembinaan dan Sertifikasi Ahli Keselamatan dan Kesehatan Kerja (K3) Umum Batch 2 dengan kuota 2.100 peserta dari seluruh Indonesia. Pendaftaran dibuka pada 6&ndash;12 April 2026.<\/p>\r\n\r\n<p>&quot;Melalui program ini, pemerintah memberikan kesempatan seluas-luasnya kepada pekerja dan masyarakat untuk menjadi Ahli K3 yang kompeten, sehingga mampu berkontribusi dalam menciptakan tempat kerja yang aman, sehat, dan produktif,&quot; kata Menaker Yassierli dalam keterangannya, Minggu, 5 April 2026.&nbsp;<\/p>\r\n\r\n<p>Yassierli menyampaikan, program ini dibuka saat kebutuhan perusahaan terhadap Ahli K3 terus meningkat. Di tengah risiko kecelakaan kerja, tuntutan kepatuhan, dan kebutuhan menjaga produktivitas, keberadaan Ahli K3 tidak lagi bisa dipandang sekadar pelengkap.<\/p>\r\n\r\n<p>Menurut dia, penguatan kompetensi K3 bukan hanya menyangkut pemenuhan aturan, melainkan juga perlindungan pekerja dan keberlangsungan usaha.&nbsp;<\/p>\r\n\r\n<p>Karena itu, akses terhadap pembinaan dan sertifikasi K3 harus makin terbuka dan menjangkau lebih banyak pekerja.<\/p>\r\n\r\n<p>&quot;Kami ingin semakin banyak pekerja memiliki kompetensi K3. Semakin kuat kompetensi itu, semakin besar pula peluang terciptanya tempat kerja yang aman, sehat, dan produktif,&quot; ujarnya.<\/p>\r\n\r\n<p>Seperti pada batch pertama, program ini gratis untuk biaya pembinaan\/pelatihan. Peserta hanya membayar Penerimaan Negara Bukan Pajak (PNBP) sebesar Rp420.000 sesuai Peraturan Pemerintah Nomor 41 Tahun 2023. Rinciannya meliputi Rp150.000 untuk Sertifikat Pembinaan Pelatihan K3, Rp120.000 untuk Evaluasi SKP AK3, dan Rp150.000 untuk Penerbitan SKP.<\/p>\r\n\r\n<p>Skema ini memberi ruang lebih luas bagi pekerja untuk meningkatkan kompetensi tanpa terbebani biaya pelatihan. Di sisi lain, perusahaan juga mendapat manfaat karena kebutuhan terhadap sumber daya manusia yang memahami keselamatan dan kesehatan kerja terus meningkat.<\/p>\r\n\r\n<p>Kemnaker menetapkan sejumlah persyaratan bagi peserta. Calon peserta minimal lulusan D3 dan wajib melampirkan scan ijazah asli dalam format PDF, scan KTP dalam format PDF, pasfoto berlatar merah dalam format JPG, scan dokumen asli Surat Pernyataan Kesediaan Peserta Mengikuti Pembinaan yang telah ditandatangani di atas materai dalam format PDF, Curriculum Vitae dalam format PDF, serta scan dokumen asli Surat Keterangan Sehat dalam format PDF.<\/p>\r\n\r\n<p>Peserta juga wajib menyiapkan handphone untuk absensi, komputer atau laptop\/PC untuk mengikuti rangkaian pembinaan, serta mengikuti ujian yang dilaksanakan di tempat yang telah ditentukan.<\/p>\r\n\r\n<p>Pelaksanaan pembinaan dan sertifikasi dijadwalkan berlangsung pada 27 April hingga 13 Mei 2026. Kemnaker mengimbau pekerja yang memenuhi persyaratan untuk segera mendaftar melalui tautan&nbsp;https:\/\/s-link.kemnaker.go.id\/AK3UGRATISBATCH2.<\/p>",
+        "judul": "Kemnaker Buka Lagi Pembinaan K3 Gratis untuk 2.100 Peserta",
+        "judul_atas": null,
+        "sub_judul": null,
+        "headline": "1",
+        "publish": "1",
+        "tag": "Menaker, Yassierli, Program K3",
+        "gambar_detail": "2026\/04\/kemnaker-buka-lagi-pembinaan-k3-gratis-untuk-2100-peserta-05042026-174051.jpg",
+        "fokus": 1,
+        "caption": "Menteri Ketenagakerjaan RI Yassierli (SinPo.id\/ Dok. Kemnaker)",
+        "baca_juga": null,
+        "counter": 52,
+        "video": null,
+        "kode_embed": null,
+        "audio": null,
+        "audioraw": null,
+        "audiotime": null,
+        "audiojson": null,
+        "audiorequesttime": null,
+        "datakategori": null,
+        "datachannel": {
+            "id": 2,
+            "nama": "POLITIK",
+            "tipe": "2",
+            "navigasi": "1",
+            "flag": "1",
+            "urut": null
+        },
+        "datawartawan": {
+            "id_wartawan": 76,
+            "nama_wartawan": "Tio Pirnando",
+            "email": "",
+            "foto": "gambar\/foto\/wartawan\/tim-redaksi.png",
+            "fb": null,
+            "quotes": null,
+            "status": 1
+        },
+        "datagallery": []
+    }
+}

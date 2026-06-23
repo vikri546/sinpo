@@ -1,0 +1,266 @@
+{
+    "success": true,
+    "meta": {
+        "page": 1,
+        "limit": 100,
+        "total": 17,
+        "total_pages": 1
+    },
+    "data": [
+        {
+            "id": 1,
+            "id_channel": 1,
+            "nama": "Reses Anggota",
+            "flag": "0",
+            "urut": null,
+            "datachannel": {
+                "id": 1,
+                "nama": "PARLEMEN",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "0",
+                "urut": null
+            }
+        },
+        {
+            "id": 8,
+            "id_channel": 4,
+            "nama": "Pilkada Dan Politik",
+            "flag": "0",
+            "urut": null,
+            "datachannel": {
+                "id": 4,
+                "nama": "OPINI",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "1",
+                "urut": null
+            }
+        },
+        {
+            "id": 12,
+            "id_channel": 5,
+            "nama": "Otomotif",
+            "flag": "0",
+            "urut": null,
+            "datachannel": {
+                "id": 5,
+                "nama": "EKBIS",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "1",
+                "urut": null
+            }
+        },
+        {
+            "id": 16,
+            "id_channel": 3,
+            "nama": "Nusantara",
+            "flag": "0",
+            "urut": null,
+            "datachannel": {
+                "id": 3,
+                "nama": "HUKUM",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "1",
+                "urut": null
+            }
+        },
+        {
+            "id": 10,
+            "id_channel": 4,
+            "nama": "No Kategori",
+            "flag": "1",
+            "urut": null,
+            "datachannel": {
+                "id": 4,
+                "nama": "OPINI",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "1",
+                "urut": null
+            }
+        },
+        {
+            "id": 18,
+            "id_channel": 2,
+            "nama": "Nasional Dan Internasional",
+            "flag": "0",
+            "urut": null,
+            "datachannel": {
+                "id": 2,
+                "nama": "POLITIK",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "1",
+                "urut": null
+            }
+        },
+        {
+            "id": 5,
+            "id_channel": 6,
+            "nama": "Nasional",
+            "flag": "1",
+            "urut": null,
+            "datachannel": {
+                "id": 6,
+                "nama": "PERISTIWA",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "1",
+                "urut": null
+            }
+        },
+        {
+            "id": 6,
+            "id_channel": 2,
+            "nama": "Nasional",
+            "flag": "1",
+            "urut": null,
+            "datachannel": {
+                "id": 2,
+                "nama": "POLITIK",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "1",
+                "urut": null
+            }
+        },
+        {
+            "id": 11,
+            "id_channel": 5,
+            "nama": "Nasional",
+            "flag": "1",
+            "urut": null,
+            "datachannel": {
+                "id": 5,
+                "nama": "EKBIS",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "1",
+                "urut": null
+            }
+        },
+        {
+            "id": 19,
+            "id_channel": 1,
+            "nama": "MPR",
+            "flag": "1",
+            "urut": null,
+            "datachannel": {
+                "id": 1,
+                "nama": "PARLEMEN",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "0",
+                "urut": null
+            }
+        },
+        {
+            "id": 4,
+            "id_channel": 1,
+            "nama": "Kunjungan Komisi",
+            "flag": "0",
+            "urut": null,
+            "datachannel": {
+                "id": 1,
+                "nama": "PARLEMEN",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "0",
+                "urut": null
+            }
+        },
+        {
+            "id": 14,
+            "id_channel": 3,
+            "nama": "Kesehatan & Pendidikan",
+            "flag": "0",
+            "urut": null,
+            "datachannel": {
+                "id": 3,
+                "nama": "HUKUM",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "1",
+                "urut": null
+            }
+        },
+        {
+            "id": 9,
+            "id_channel": 3,
+            "nama": "Hukum ",
+            "flag": "1",
+            "urut": null,
+            "datachannel": {
+                "id": 3,
+                "nama": "HUKUM",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "1",
+                "urut": null
+            }
+        },
+        {
+            "id": 17,
+            "id_channel": 15,
+            "nama": "Foto",
+            "flag": "1",
+            "urut": null,
+            "datachannel": {
+                "id": 15,
+                "nama": "GALERI",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "1",
+                "urut": null
+            }
+        },
+        {
+            "id": 2,
+            "id_channel": 1,
+            "nama": "DPR",
+            "flag": "1",
+            "urut": null,
+            "datachannel": {
+                "id": 1,
+                "nama": "PARLEMEN",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "0",
+                "urut": null
+            }
+        },
+        {
+            "id": 20,
+            "id_channel": 1,
+            "nama": "DPD",
+            "flag": "1",
+            "urut": null,
+            "datachannel": {
+                "id": 1,
+                "nama": "PARLEMEN",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "0",
+                "urut": null
+            }
+        },
+        {
+            "id": 7,
+            "id_channel": 8,
+            "nama": "Advertorial",
+            "flag": "0",
+            "urut": null,
+            "datachannel": {
+                "id": 8,
+                "nama": "Advertorial",
+                "tipe": "2",
+                "navigasi": "1",
+                "flag": "1",
+                "urut": null
+            }
+        }
+    ]
+}
