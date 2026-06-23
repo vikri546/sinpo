@@ -2675,7 +2675,7 @@ body.dark-mode #fullscreen-search-input {
 
   /* --- Header Sticky (Mobile) --- */
   header {
-    padding-top: env(safe-area-inset-top, 0px);
+    top: calc(var(--header-top-offset, 0px) + env(safe-area-inset-top, 0px));
   }
 
   /* --- 7. HEADER BOTTOM (Date, User, Bottom Menu) --- */
