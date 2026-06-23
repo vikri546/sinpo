@@ -26,31 +26,31 @@ window.addEventListener(
 
         if(scrollLocked) return;
 
-        const headerTop =
-            document.querySelector('.header-top');
+        const header = document.getElementById('header');
+        const headerTop = document.querySelector('.header-top');
 
-        if(!headerTop) return;
+        if(!header || !headerTop) return;
 
         const scrollY = window.scrollY;
 
-        // Hide: scroll bukan di paling atas
+        // Scroll Down
         if(scrollY > 0 && !isHidden){
 
-            headerTop.classList.add('hide');
+            const h = headerTop.offsetHeight;
+            header.style.transform = 'translateY(-' + h + 'px)';
             isHidden = true;
 
-            // Lock untuk mencegah feedback loop
             scrollLocked = true;
-            setTimeout(function(){ scrollLocked = false; }, 300);
+            setTimeout(function(){ scrollLocked = false; }, 350);
 
-        // Show: hanya di posisi paling atas
+        // Scroll Up
         }else if(scrollY === 0 && isHidden){
 
-            headerTop.classList.remove('hide');
+            header.style.transform = '';
             isHidden = false;
 
             scrollLocked = true;
-            setTimeout(function(){ scrollLocked = false; }, 300);
+            setTimeout(function(){ scrollLocked = false; }, 350);
 
         }
 

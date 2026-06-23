@@ -136,9 +136,6 @@
 }
 
 
-.header-top.hide{
-    display: none;
-}
 
 .sinpo-tv-section {
   background: linear-gradient(
@@ -989,7 +986,8 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  overflow-anchor: none;
+  transition: transform 0.3s ease;
+  will-change: transform;
 }
 
 body.dark-mode header {
